@@ -1,0 +1,6 @@
+Every stored data item occupies one or more contiguous memory cells.
+Every cell in the memory has a unique address.
+Any reference to a variable, declared in memory, accesses the variable through the address of memory location.
+Pointers are variables, which contain the addresses of other variables (of any data type) in memory.
+
+

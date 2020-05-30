@@ -1,0 +1,71 @@
+#include <stdio.h>
+#include <stdlib.h>
+//call by refrence...
+void swap(int ,int );
+int main() {
+	int a=10,b=20;//actual parameter
+	printf("\n\nBefore swap values a=%d,b=%d",a,b);//10  20
+	swap(&a,&b);//here pass address of and b
+	printf("\n\nafter swap values a=%d,b=%d",a,b);//20 10
+	return 0;
+}
+void swap(int x,int y)//formal parameter
+{
+	int *temp;
+	*temp=*x;
+	*x=*y;
+	*y=*temp;
+	printf("\n\nafter swap values in swap function x=%d,y=%d",*x,*y);//20  10
+}
+////////////////////////////////////////////////////////////////////////////////////
+call by value:- if we change value in formal parameter means in swap function it does
+                not change value in main function,this is call by value
+
+call by ref:- if we change value in swap function ir change values in main function 
+		also,becouse we are using pointer and this is called as call by refernce
+
+///////////////////////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+#include <stdlib.h>
+void swap(int,int);
+int main() {
+	int a=10,b=20;//actual parameter
+	printf("\n\nBefore swap values a=%d,b=%d",a,b);//10  20
+	swap(a,b);
+	printf("\n\nafter swap values a=%d,b=%d",a,b);//10 20
+////////////////////////////////////////////////////////////////////////////////////////
+#include <stdio.h>
+#include <stdlib.h>
+
+void display(int []);
+
+int main() {
+	int i;
+	int arr[5];
+	printf("Enter any five nos");
+	for(i=0;i<5;i++){
+		scanf("%d",&arr[i]);
+	}
+	display(arr);
+	return 0;
+}
+void display(int arr[])
+{
+	int i;
+	for(i=0;i<5;i++){
+		printf("\n%d",arr[i]);
+	}
+}
+////////////////////////////////////////////////////////////////////////////////////////////
+
+	return 0;
+}
+void swap(int x,int y)//formal parameter
+{
+	int temp;
+	temp=x;
+	x=y;
+	y=temp;
+	printf("\n\nafter swap values in swap function x=%d,y=%d",x,y);//20  10
+}
+

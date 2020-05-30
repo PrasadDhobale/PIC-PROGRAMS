@@ -1,0 +1,16 @@
+Write an algorithm to implement binary search algorithm.
+1.Accept the element to be searched
+2.Set lowerbound = 0
+3.Set upperbound = n – 1
+4.Set mid = (lowerbound + upperbound)/2
+5.If arr[mid] = desired element:
+	a.Display “Found”
+	b.Go to step 10
+6.If desired element < arr[mid]:
+	a.Set upperbound = mid – 1
+7.If desired element > arr[mid]:
+	a.Set lowerbound = mid + 1
+8.If lowerbound <= upperbound:	
+	a.Go to step 4
+9.Display “Not Found”
+10.Exit

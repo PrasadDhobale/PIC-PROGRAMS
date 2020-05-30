@@ -1,0 +1,4 @@
+1) malloc : Allocate memory Dinamically means Random address(not a continuous address)
+2) calloc : Allocates block of memory in continous order also we can reacallocate memory as an when require
+3) Array allocates memory in the beginning of programme but malloc or calloc allocate he memoery at the run 
+   time of a programme.

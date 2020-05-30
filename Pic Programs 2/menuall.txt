@@ -1,0 +1,80 @@
+1-Logics
+2-Area
+3-Array Operations
+Enter Your choice..
+1
+1-Factor
+2-Factorial
+3-Prime
+Enter your choice
+1
+Enter no for factor
+10
+2
+5
+0
+0
+0
+0
+0
+0
+0
+0
+Do you want to continue to logic press yes/no
+yes
+1-Factor
+2-Factorial
+3-Prime
+Enter your choice
+2
+Do you want to continue to logic press yes/no
+no
+-------Thank you Area----------
+DO you want to go main menu..
+yes
+1-Logics
+2-Area
+3-Array Operations
+Enter Your choice..
+2
+1-Area of Circle
+2-Area of Triangle
+3-Area of Rect
+Enter your choice
+1
+Enter radius for circle
+5
+Area of Circle is h:78.5
+Do you want to continue to area press yes/no
+yes
+1-Area of Circle
+2-Area of Triangle
+3-Area of Rect
+Enter your choice
+2
+Enter base and height
+3
+5
+Area of Triangle is :7.5
+Do you want to continue to area press yes/no
+no
+-------Thank you Area----------
+DO you want to go main menu..
+yes
+1-Logics
+2-Area
+3-Array Operations
+Enter Your choice..
+3
+1-OneD
+2-TwoD
+Enter your choice
+1
+1-Create
+2-Display
+3-Search
+4-Insert
+5-Delete
+6-Sort
+6
+DO you want to continue Array operations press yes

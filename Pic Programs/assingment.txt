@@ -1,0 +1,28 @@
+1.Primeno,factorial,factor,power,reverse of no,sum of digit of number,perrfect no.
+example 1.
+ 1   1
+ 5   125
+ 3    27
+============
+      153
+
+Example 2 -
+  	121
+
+exmple3-accept any number check how many digit no it is.
+and after that cout how many time each digit appear in number.
+example 
+	1231
+here
+ 1 count 2
+ 2 count 1
+ 3 count 1
+
+	28
+
+factor of 28 
+	1 2 4 7 14 = 28
+
+
+print all amstrong number till nth number...
+ n=10000

@@ -1,0 +1,88 @@
+
+
+void main()
+{
+	do
+	{
+		printf("1-Area\n2-Logic\n3\Array");
+		printf("Enter your choice");
+		scanf("%d",&ch);
+		switch(ch)
+		{
+		case 1:
+			do
+			{
+				printf("1-Circle \n2-Triangle\n3-Rect");
+				printf("\nEnter your choice");
+				scanf("%d",&ch);
+				swicth(ch)
+				{
+				case 1:
+					printnf("enter radius for circle");
+					scanf("%d",&r);
+					printf("Area of circle is : %f",circle(r));
+				break;
+				case 2://triangle
+					printnf("enter base and height for triangle");
+					scanf("%d",&b,&h);
+					printf("Area of triangle is : %f",triangle(b,h));
+				break;
+				}
+				printf("do you want to continue to area press 1");
+				scanf("%d",&ch);
+			}while(ch==1);
+			printf("Thank from Area...");
+		break;
+		case 2:
+			do
+			{
+				printf("1-Factor \n2-Factorial\n3-Prime\ncontinue...");
+				printf("\nEnter your choice");
+				scanf("%d",&ch);
+				swicth(ch)
+				{
+				case 1:
+					printnf("enter radius for circle");
+					scanf("%d",&r);
+					printf("Area of circle is : %f",circle(r));
+				break;
+				case 2://triangle
+					printnf("enter base and height for triangle");
+					scanf("%d",&b,&h);
+					printf("Area of triangle is : %f",triangle(b,h));
+				break;
+				}
+				printf("do you want to continue to logics press 1");
+				scanf("%d",&ch);
+			}while(ch==1);
+			printf("Thank from logics.....");
+		break;
+		case 3:
+			//array..
+			
+		break;
+		case 4:
+			//string operation...
+		break;
+		}
+		printf("do you want to go to main menu..");
+		scanf("%d",&ch);
+	}while(ch==1);
+	printf("\n--------THANKS TO ALL------------");
+}
+write all functions here...........
+float circlearea(float r)
+{
+}
+float tranglearea(float r)
+{
+}
+int prime(int n)
+{
+}
+.
+.
+.
+
+
+

@@ -1,0 +1,12 @@
+
+Data types	format	size		example
+======================================================
+int		%d	2		int rno;		0...9
+
+float		%f	4		float per;		1.1
+
+
+char		%c	1(ASCII)		char gr;		'A' 'B'
+
+
+String		%s			char name[10];	"Rahul"

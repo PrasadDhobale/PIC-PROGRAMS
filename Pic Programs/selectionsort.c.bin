@@ -1,0 +1,56 @@
+
+
+//--logic of program...
+#include<stdio.h>
+void main()
+{
+    int n,swap,min=0,i,j,k;
+    int num[10]={9,8,7,6,5,4,3,2,1};
+    printf("\nEnter size of array =");
+    scanf("%d",&n);
+    for(k=0;k<n;k++)
+    {
+        printf("\n%d",num[k]);
+    }
+    for(j=0;j<n-1;j++)
+    {
+        
+        printf("\nno.of the pass is=%d",j+1);
+        
+            
+            min=j;
+            
+        
+        for(i=j+1;i<n;i++)
+        {
+            
+            if(num[min]>num[i])
+            {    
+                min=i;
+                
+            
+            }
+            if(min!=j)
+            {
+                swap=num[j];
+                num[j]=num[min];
+                num[min]=swap;
+           }  
+            printf("\n");
+            
+            
+        }
+               
+     }
+        printf("\narray after swap=");
+        for(k=0;k<n;k++)
+        {
+            printf("\n%d",num[k]);
+        }
+        
+ }
+    
+    
+    
+    
+    

@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() 
+{
+	int x=1,y=1;
+	int a,b;
+	
+	a= x++ + x++ + x++ + x++ + x++;//15
+	b=++y + ++y + ++y + ++y + ++y;//21
+	printf("\na = %d",a);//15
+	printf("\nb = %d",b);//20
+	printf("\nx = %d",x);//6
+	printf("\ny = %d",y);//6
+	//a=5 x=6
+	//b=30
+	
+return 0;
+}
+=================
+++x;//unary operator...
+
+--assingment
+exampl1:
+a=1,b=1
+c= a++ + ++a;
+b=++b + b++;
+
+example2:
+x=10,y=20,z=15;
+
+a= x++ + -- y + z-- + ++x;
+
+
+
+
+--assingment:
+
+greater of three nos using conditional operator..
+a=10,b=20,c=15
+
+
+
+
+
+
+
+
+

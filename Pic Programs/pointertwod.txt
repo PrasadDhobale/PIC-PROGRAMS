@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <stdlib.h>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+int main()
+{
+	
+	int arr[2][2]={{10,20},{30,40}};
+	int *p=&arr;
+	int i,j;
+/*	printf("%d",*p);
+	printf("\n%d",*(p+1));
+	printf("\n%d",*(p+2));
+	printf("\n%d",*(p+3));
+*/
+	for(i=0;i<2;i++)
+	{
+		for(j=0;j<2;j++)
+		{
+		printf("\n\n%d",*(p+i*2+j));
+		}
+	}
+	
+	/*int arr[5]={10,20,30,40,50};
+	int *p=&arr;
+	int i;*/
+//pointer arithmetic....
+	/*for(i=1;i<=5;i++)
+	{
+		printf("\n%u -->    %5d",p,*p++);
+	}*/
+	
+/*	int i=0;
+	int arr[5];
+	int *p=&arr[0];
+	int sum=0;
+	printf("Enter any five nos");
+	for(i=0;i<5;i++)//2
+	{
+		scanf("%d",(p+i));//10 20 30
+		sum=sum+*(p+i);//0+10=10+20=30
+	}
+	printf("\nyour nos in reverse order are");
+	for(i=4;i>=0;i--)
+	{
+		printf("%5d",*(p+i));
+	
+	}
+	printf("\nSum is %d",sum);
+*/
+	/*printf("\n%d",*p);//10
+	printf("\n%d",*p+1);//11
+	printf("\n%d",*(p+0));//10
+	printf("\n%d",*(p+1));//20
+	printf("\n%d",*(p+3));//40
+	*/
+	/*printf("\n\nUsing Loop....\n");
+	for(i=0;i<5;i++)
+	{
+		printf("%5d",*(p+i));//10 20  30 40 50...
+	}*/
+	return 0;
+}

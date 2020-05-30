@@ -1,0 +1,8 @@
+Algorithm for selection sort:
+1.Repeat steps 2 and 3 varying j from 0 to n – 2
+2.Find the minimum value in arr[j] to arr[n – 1]:
+	a.Set min_index = j
+	b.Repeat step c varying i from j + 1 to n – 1
+	c.If arr[i] < arr[min_index]://1<2
+	  i.   min_index = i
+3.Swap arr[j] with arr[min_index]

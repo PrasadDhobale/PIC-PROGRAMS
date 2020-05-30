@@ -1,0 +1,19 @@
+int n1=10;
+int *p1=&n1;//*p is pointer variable of type integer, 
+	  //which is used to store address of int variable
+
+	 //here * means it is pointer variable which is used to store address...
+
+Defination:Poiter is variable which is used to store address of any other variable...
+we can used pointer variable with * sign.
+
+to store addres of int variable we need integer pointer.
+to store address of char variable we need char pointer.
+to store address of float variable we need float variable.
+
+example:
+	int n1=10;
+	int *p1=&n1;
+
+	float x=1.1;
+	float *ptr=&x;
